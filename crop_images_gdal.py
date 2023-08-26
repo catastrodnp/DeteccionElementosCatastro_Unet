@@ -19,7 +19,7 @@ def crop(ORI_PATH="./data/big_img/",SIZE=100,CROP_PATH='crop_images/images', EXT
 
     list_imgs_original = glob.glob(original_path+'/*.tif')
 
-    for im in tqdmn(list_imgs_original):
+    for im in tqdm(list_imgs_original):
         
         ds = gdal.Open(im)
 
