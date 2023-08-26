@@ -229,7 +229,7 @@ def predict(CLASS_PREDICT = ['background', 'road'],SIZE=100, CLASS_RGB=[[0, 0, 0
         os.makedirs(sample_preds_folder)
 
     #for idx,name in tqdm(zip(range(len(test_dataset)),[i.split('\\', 1)[1] for i in test_dataset.image_paths])):
-    for idx,name in tqdm(zip(range(len(test_dataset)),[i.split('\\')[-1] for i in test_dataset.image_paths])):
+    for idx,name in tqdm(zip(range(len(test_dataset)),[i.split('/')[-1] for i in test_dataset.image_paths])):
         image = test_dataset[idx]
         x_tensor = torch.from_numpy(image).to(DEVICE).unsqueeze(0)
         # Predict test image
