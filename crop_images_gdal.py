@@ -12,7 +12,7 @@ from tqdm import tqdm
 def crop(ORI_PATH="./data/big_img/",SIZE=100,CROP_PATH='crop_images/images', EXT='tif'):
 
     original_path = ORI_PATH
-    path_out = os.path.join(CROP_PATH)
+    fol_crop = os.path.join(CROP_PATH)
 
     if not os.path.exists(CROP_PATH): # here '100' corresponds to size by default
         os.makedirs(CROP_PATH)
