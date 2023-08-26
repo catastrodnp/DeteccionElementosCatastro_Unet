@@ -1,0 +1,7 @@
+segmentation-models-pytorch==0.2.1
+albumentations
+osgeo
+ipywidgets
+geopandas
+leafmap
+localtileserver
