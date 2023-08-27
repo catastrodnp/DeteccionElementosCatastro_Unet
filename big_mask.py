@@ -1,6 +1,7 @@
 import os,glob
 import re
 import sys
+from PIL import Image
 from tqdm import tqdm_notebook as tqdmn
 import cv2
 import numpy as np
