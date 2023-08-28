@@ -6,8 +6,8 @@ El modelo U-Net es una arquitectura de red neuronal convolucional muy utilizada 
 ## Contenido
 
 - [Requisitos](#requisitos)
-- [Cómo Usar](#cómo-usar)
-- [Ejemplos](#ejemplos)
+- [Cómo Usar](#Fuente-Conjunto-de-datos)
+- [Ejemplos](#Ejemplos)
 - [Diagrama de Arquitectura](#diagrama-de-arquitectura)
 - [Referencias](#referencias)
 
@@ -15,6 +15,11 @@ El modelo U-Net es una arquitectura de red neuronal convolucional muy utilizada 
 
 - Python 3.x
 - Bibliotecas de Python: segmentation-models-pytorch==0.2.1, albumentations, ipywidgets, geopandas, leafmap, localtileserver
+
+## Fuente Conjunto de datos
+•	Imágenes satelitales RGB de 10 a 50 cms de resolución espacial. Fuente: Colombia en imágenes, IGAC
+
+## Ejemplos
 
 ## Diagrama de Arquitectura
 ![Diagrama U-Net](https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)
