@@ -16,4 +16,4 @@ Este repositorio contiene un ejemplo de implementación del algoritmo U-Net para
 - Bibliotecas de Python: TensorFlow, OpenCV, Matplotlib
 
 ## Diagrama de Arquitectura
-https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png
+![Diagrama U-Net](https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)
