@@ -16,6 +16,4 @@ Este repositorio contiene un ejemplo de implementación del algoritmo U-Net para
 - Bibliotecas de Python: TensorFlow, OpenCV, Matplotlib
 
 ## Diagrama de Arquitectura
-```python
-# Carga una imagen de ejemplo
-image = cv2.imread('[sample_image.jpg](https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png')
+https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png
