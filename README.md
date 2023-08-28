@@ -6,10 +6,10 @@ El modelo U-Net es una arquitectura de red neuronal convolucional muy utilizada 
 ## Contenido
 
 - [Requisitos](#requisitos)
-- [Cómo Usar](#Fuente-Conjunto-de-datos)
+- [Fuente](#Fuente-Conjunto-de-datos)
 - [Ejemplos](#Ejemplos)
 - [Diagrama de Arquitectura](#diagrama-de-arquitectura)
-- [Referencias](#referencias)
+- [Métricas](#Métricas)
 
 ## Requisitos
 
@@ -24,4 +24,8 @@ El modelo U-Net es una arquitectura de red neuronal convolucional muy utilizada 
 
 ## Ejemplo conjunto de datos de entrenamiento
 ![Conjunto de datos de entrenamiento](ejemplo_dataset.png)
+
+## Métricas
+Las métricas IoU y Dice indican la precisión deeste tipo de algoritmos
+![Métricas entrenamiento](Metrics.png)
 
