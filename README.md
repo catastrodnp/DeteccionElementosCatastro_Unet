@@ -1,6 +1,7 @@
-# U-Net para Detección de Vías y Construcciones
+# U-Net para Detección de elementos de catastro
 
-Este repositorio contiene un ejemplo de implementación del algoritmo U-Net para la detección de vías y construcciones en imágenes satelitales. El U-Net es una arquitectura de red neuronal convolucional muy utilizada en tareas de segmentación semántica.
+Este repositorio contiene un ejemplo de implementación del algoritmo U-Net para la detección de vías, construcciones, cercas, muros y remoción en masas en imágenes satelitales. 
+El modelo U-Net es una arquitectura de red neuronal convolucional muy utilizada en tareas de segmentación semántica.
 
 ## Contenido
 
