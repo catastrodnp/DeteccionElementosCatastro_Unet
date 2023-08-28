@@ -22,6 +22,6 @@ El modelo U-Net es una arquitectura de red neuronal convolucional muy utilizada 
 ## Fuente Conjunto de datos
 •	Imágenes satelitales RGB de 10 a 50 cms de resolución espacial. Fuente: Colombia en imágenes, IGAC
 
-## Ejemplos
+## Ejemplo conjunto de datos de entrenamiento
 ![Conjunto de datos de entrenamiento](ejemplo_dataset.png)
 
