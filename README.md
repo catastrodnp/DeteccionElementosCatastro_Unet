@@ -20,6 +20,7 @@ El modelo U-Net es una arquitectura de red neuronal convolucional muy utilizada 
 •	Imágenes satelitales RGB de 10 a 50 cms de resolución espacial. Fuente: Colombia en imágenes, IGAC
 
 ## Ejemplos
+![Conjunto de datos de entrenamiento](ejemplo_dataset.png)
 
 ## Diagrama de Arquitectura
 ![Diagrama U-Net](https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)
