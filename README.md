@@ -13,7 +13,7 @@ Este repositorio contiene un ejemplo de implementación del algoritmo U-Net para
 ## Requisitos
 
 - Python 3.x
-- Bibliotecas de Python: TensorFlow, OpenCV, Matplotlib
+- Bibliotecas de Python: segmentation-models-pytorch==0.2.1, albumentations, ipywidgets, geopandas, leafmap, localtileserver
 
 ## Diagrama de Arquitectura
 ![Diagrama U-Net](https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)
