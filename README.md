@@ -1,3 +1,8 @@
+<a target="_blank" href="https://colab.research.google.com/drive/1A3KbD7-sAJbPmyh2mlURrKhMGxSh-RUK">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+
 # U-Net para Detección de elementos de catastro
 
 Este repositorio contiene un ejemplo de implementación del algoritmo U-Net para la detección de vías, construcciones, cercas, muros y remoción en masas en imágenes satelitales. 
