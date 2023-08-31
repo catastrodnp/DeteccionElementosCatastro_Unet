@@ -41,7 +41,7 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 ## Fuente Conjunto de datos
 •	Fotografías aéreas tipo Ultracam:
 
-    Capas: RGB 
+    Bandas: RGB 
 
     Resolución espacial: 10 cms (urbano), 50 cms (rural)
     
