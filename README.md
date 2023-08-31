@@ -28,7 +28,7 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
     localtileserver
 
 ## Diagrama de Arquitectura
-![U-Net](https://www.researchgate.net/publication/327941585/figure/fig3/AS:686047130296330@1540577790472/The-architecture-of-the-patch-wise-convolutional-network-This-paper-splits-the-large.ppm)
+![U-Net](https://pub.mdpi-res.com/remotesensing/remotesensing-12-03530/article_deploy/html/images/remotesensing-12-03530-ag.png)
 
 ## Fuente Conjunto de datos
 •	Imágenes aéreas tipo Ultracam:
