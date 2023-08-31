@@ -64,6 +64,7 @@ Uuna estimación de ahorros en tiempo y costos por el uso de este tipo de algori
 
 ## Reconocimiento
 El entrenamiento y la detección del modelo se hizo usando la arquitectura UNET:
+
   U-Net: Convolutional Networks for Biomedical Image Segmentation
   Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015, 2015, Volume 9351
   ISBN : 978-3-319-24573-7
