@@ -39,7 +39,7 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 ![U-Net](https://www.mdpi.com/remotesensing/remotesensing-09-00680/article_deploy/html/images/remotesensing-09-00680-g002.png)
 
 ## Fuente Conjunto de datos
-•	Imágenes aéreas tipo Ultracam:
+•	Fotografías aéreas tipo Ultracam:
 
     Capas: RGB 
 
