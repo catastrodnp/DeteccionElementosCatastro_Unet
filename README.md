@@ -56,8 +56,9 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 ## Estimación de ahorros
 Uuna estimación de ahorros en tiempo y costos por el uso de este tipo de algoritmos:
 
-- Rural: Reducción tiempo (14%)
-- Reducción costo (58%)
+- Urbano: Reducción tiempo (42%), Reducción costo (66%)
+  
+- Rural: Reducción tiempo (31%), Reducción costo (58%)
 
 ## Reconocimiento
 El entrenamiento y la detección del modelo se hizo usando la arquitectura UNET:
