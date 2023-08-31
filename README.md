@@ -39,15 +39,17 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 ![U-Net](https://www.mdpi.com/remotesensing/remotesensing-09-00680/article_deploy/html/images/remotesensing-09-00680-g002.png)
 
 ## Fuente Conjunto de datos
-•	Fotografías aéreas tipo Ultracam:
+•	Imágenes tipo Ultracam:
 
+    Sensor: UAV cámara Soda
+    
     Bandas: RGB 
 
     Resolución espacial: 10 cms (urbano), 50 cms (rural)
     
     Dtype: unit8
     
-    Fuente: Colombia en imágenes, IGAC
+    Fuente: https://www.colombiaenmapas.gov.co/
     
 
 ## Ejemplo conjunto de datos de entrenamiento
