@@ -18,6 +18,7 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 
 ## Requisitos
 •	Python 3.x
+
 •	Bibliotecas de Python
 
 ## Diagrama de Arquitectura
