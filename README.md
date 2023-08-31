@@ -22,7 +22,8 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 - Bibliotecas de Python: segmentation-models-pytorch==0.2.1, albumentations, ipywidgets, geopandas, leafmap, localtileserver
 
 ## Diagrama de Arquitectura
-![Diagrama U-Net]([https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-07-07_at_9.08.00_PM_rpNArED.png)) Source: https://arxiv.org/pdf/1505.04597.pdf
+![Diagrama U-Net]([https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png)https://pub.mdpi-res.com/remotesensing/remotesensing-12-01544/article_deploy/html/images/remotesensing-12-01544-g001.png](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-07-07_at_9.08.00_PM_rpNArED.png))
+Source: https://arxiv.org/pdf/1505.04597.pdf
 
 ## Fuente Conjunto de datos
 •	Imágenes aéreas tipo Ultracam:
