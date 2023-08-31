@@ -14,8 +14,9 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 - [Fuente](#Fuente-Conjunto-de-datos)
 - [Ejemplos](#Ejemplos)
 - [Diagrama de Arquitectura](#diagrama-de-arquitectura)
-- [Reconocimientos](#Reconocimientos)
 - [Estimación de ahorros](#Estimación-de-ahorros)
+- [Reconocimientos](#Reconocimientos)
+
 
 ## Requisitos
 •	Python 3.x
