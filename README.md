@@ -20,6 +20,7 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 •	Python 3.x
 
 •	Bibliotecas de Python:
+
     - segmentation-models-pytorch==0.2.1
     
     - albumentations
