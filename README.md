@@ -16,10 +16,16 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 - [Diagrama de Arquitectura](#diagrama-de-arquitectura)
 - [Reconocimientos](#Reconocimientos)
 
-## Requisitos
+## Requisitos técnicos
 
 - Python 3.x
-- Bibliotecas de Python: segmentation-models-pytorch==0.2.1, albumentations, ipywidgets, geopandas, leafmap, localtileserver
+- Bibliotecas de Python:
+    segmentation-models-pytorch==0.2.1
+    albumentations
+    ipywidgets
+    geopandas
+    leafmap
+    localtileserver
 
 ## Diagrama de Arquitectura
 ![U-Net](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-07-07_at_9.08.00_PM_rpNArED.png)
