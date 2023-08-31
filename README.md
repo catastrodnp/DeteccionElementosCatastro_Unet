@@ -18,13 +18,7 @@ El modelo U-Net es una de las arquitecturas de red neuronal convolucional más u
 
 ## Requisitos
 •	Python 3.x
-•	Bibliotecas de Python:
-    - segmentation-models-pytorch==0.2.1
-    - albumentations
-    - ipywidgets
-    - geopandas
-    - leafmap
-    - localtileserver
+•	Bibliotecas de Python
 
 ## Diagrama de Arquitectura
 ![U-Net](https://www.mdpi.com/remotesensing/remotesensing-09-00680/article_deploy/html/images/remotesensing-09-00680-g002.png)
