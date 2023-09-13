@@ -3,8 +3,6 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-Ver [Notebook Catastro UNET](https://github.com/catastrodnp/DeteccionElementosCatastro_Unet/blob/main/notebook/Catastro_DNP_UNet.ipynb)
-
 # U-Net para Detección de elementos de catastro
 
 Este repositorio contiene un ejemplo de implementación del algoritmo U-Net para la detección de vías, construcciones, cercas, muros, manzanas y remoción en masas en imágenes satelitales. 
