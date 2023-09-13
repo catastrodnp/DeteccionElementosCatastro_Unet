@@ -1,8 +1,8 @@
-<a target="_blank" href="https://colab.research.google.com/github.com/catastrodnp/DeteccionElementosCatastro_Unet/notebooks/Catastro_DNP_UNet.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github.com/catastrodnp/DeteccionElementosCatastro_Unet/blob/main/notebook/Catastro_DNP_UNet.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-Ver [Notebook Catastro UNET](https://github.com/catastrodnp/DeteccionElementosCatastro_Unet/blob/master/notebooks/Catastro_DNP_UNet.ipynb)
+Ver [Notebook Catastro UNET](https://github.com/catastrodnp/DeteccionElementosCatastro_Unet/blob/main/notebook/Catastro_DNP_UNet.ipynb)
 
 # U-Net para Detección de elementos de catastro
 
