@@ -12,7 +12,7 @@ def big_img_join(PRED_BIG='./prediction/pred_big/', ORI_PATH="./data/ORI_PATH/",
   big_list=glob.glob(ORI_PATH+'/*.tif')
   test_output=glob.glob(PRED_PATH+'/*.tif')
   # Pattern for searching the number to referenciate small image into the big image.
-  reference_pattern = re.compile('^.*AnalyticMS_rgb_scaled_([0-9_]*)_.*.tif$')#válido para rgb
+  #reference_pattern = re.compile('^.*AnalyticMS_rgb_scaled_([0-9_]*)_.*.tif$')#válido para rgb
 
   for bi in tqdmn(big_list):
     print(bi)
@@ -29,7 +29,9 @@ def big_img_join(PRED_BIG='./prediction/pred_big/', ORI_PATH="./data/ORI_PATH/",
     for small_img in test_output:
         small = cv2.imread(small_img, cv2.IMREAD_UNCHANGED)
         small= small[:, :, 0]
-        i, j, k = re.findall(reference_pattern, small_img.split('/')[-1])[0].split('_')[0:3]
+        #i, j, k = re.findall(reference_pattern, small_img.split('/')[-1])[0].split('_')[0:3]
+        ijk=small_img.split('_')[-6:-2]
+        i, j, k = ijk[0],ijk[1],ijk[2]
         try:
             X_test_output[ int(i): int(i) + width, int(j): int(j) + height] = small
         except:
