@@ -4,12 +4,13 @@ from shapely.ops import unary_union
 import os
 
 def shp_regularize(shp_in,shp_out):
-   gdf = gpd.read_file(shp_in)
-   
-   # Regularization and polygonization to each geometry
-   regularized_geometries = []
-   
-   for index, row in gdf.iterrows():
+
+  gdf = gpd.read_file(shp_in)
+
+  # Regularization and polygonization to each geometry
+  regularized_geometries = []
+
+  for index, row in gdf.iterrows():
       # Regularize the geometry (optional)
       regularized_geometry = row['geometry'].simplify(0.5, preserve_topology=True)
       
@@ -27,6 +28,6 @@ def shp_regularize(shp_in,shp_out):
       # Add the regularized geometry to the list
       regularized_geometries.append(regularized_geometry)
 
-    # Create a new GeoDataFrame with the regularized geometries
-    gdf_regularized = gpd.GeoDataFrame({'geometry': regularized_geometries}, crs=gdf.crs)
-    gdf_regularized.to_file(shp_out)
+  # Create a new GeoDataFrame with the regularized geometries
+  gdf_regularized = gpd.GeoDataFrame({'geometry': regularized_geometries}, crs=gdf.crs)
+  gdf_regularized.to_file(shp_out)
