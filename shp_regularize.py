@@ -3,7 +3,7 @@ from shapely.geometry import Polygon
 from shapely.ops import unary_union
 import os
 
-def shp_regularize(shp_in,shp_out):
+def shp_regularize(shp_in,shp_out,simp_fac,topol):
 
   gdf = gpd.read_file(shp_in)
 
@@ -12,7 +12,8 @@ def shp_regularize(shp_in,shp_out):
 
   for index, row in gdf.iterrows():
       # Regularize the geometry (optional)
-      regularized_geometry = row['geometry'].simplify(0.5, preserve_topology=True)
+      regularized_geometry = row['geometry'].simplify(simp_fac, 
+                                                      preserve_topology=topol)
       
       # Convert the geometry to a Polygon if it's not already
       if not isinstance(regularized_geometry, Polygon):
