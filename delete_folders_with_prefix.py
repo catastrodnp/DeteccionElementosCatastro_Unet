@@ -1,4 +1,4 @@
-import shutil
+import os,shutil
 
 def delete_folders_with_prefix(directory, prefix):
     for root, dirs, files in os.walk(directory, topdown=False):
