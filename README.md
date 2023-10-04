@@ -70,3 +70,7 @@ El entrenamiento y la detección del modelo se hizo usando la arquitectura UNET:
   ISBN : 978-3-319-24573-7
   Olaf Ronneberger, Philipp Fischer, Thomas Brox
 
+Agradecimiento especial a la Dirección de infraestructura y energía sostenible que desarrollaron una primera versión del código Unet para detectar vías terciarias. El inventario de vías terciarias completo para todos los departamentos de Colombia se puede consultar en el siguiente link: 
+  
+  https://onl.dnp.gov.co/Paginas/IA-Vias-Terciarias.aspx
+
