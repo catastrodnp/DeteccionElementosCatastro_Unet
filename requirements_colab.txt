@@ -1,5 +1,5 @@
 segmentation-models-pytorch==0.2.1
-albumentations
+albumentations==1.3.1
 ipywidgets
 geopandas
 leafmap
