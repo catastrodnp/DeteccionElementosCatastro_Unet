@@ -4,3 +4,4 @@ ipywidgets
 geopandas
 leafmap
 localtileserver
+fiona==1.10.1
