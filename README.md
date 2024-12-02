@@ -77,24 +77,26 @@ Agradecimiento especial a la Dirección de infraestructura y energía sostenible
 ## Uso en QGIS con Deepness
 En la carpeta onnx de este repositorio se encuentran archivos de modelos pre-entrenados en formato ONNX que pueden ser utilizados para realizar la segmentación en QGIS mediante el complemento Deepness. Esto permite realizar el análisis de elementos como vías y construcciones directamente desde QGIS, sin necesidad de utilizar o ejecutar scripts.
 
-Pasos para utilizar los modelos en QGIS:
+# Pasos para utilizar los modelos en QGIS:
 
-
+1. Instalar el complemento Deepness:
   •	Abrir QGIS.
-  Ir a Complementos -> Administrar e Instalar Complementos.
-  Buscar Deepness e instalarlo.
-  Descargar los modelos ONNX:
+  • Ir a Complementos -> Administrar e Instalar Complementos.
+  •Buscar Deepness e instalarlo.
   
- •	Navegar a la carpeta onnx en este repositorio.
-  Descargar los archivos de modelo correspondientes a los elementos que desea segmentar (por ejemplo, vías, construcciones).
-  Cargar los modelos en Deepness:
+2. Descargar los modelos ONNX:
+   •	Navegar a la carpeta onnx en este repositorio.
+   •	Descargar los archivos de modelo correspondientes a los elementos que desea segmentar (vías, construcciones).
+
+3. Cargar los modelos en Deepness:
   
   •	En QGIS, abrir el panel de Deepness.
-  Importar el modelo ONNX descargado.
-  Aplicar el modelo a las imágenes:
+  •	Importar el modelo ONNX descargado.
 
-•	Seleccionar la imagen satelital o raster sobre la que desea realizar la segmentación.
-•	Configurar los parámetros necesarios en Deepness.
-•	Ejecutar el proceso para generar la segmentación.
+4. Aplicar el modelo a las imágenes:
+
+  •	Seleccionar la imagen satelital o raster sobre la que desea realizar la segmentación.
+  •	Configurar los parámetros necesarios en Deepness.
+  •	Ejecutar el proceso para generar la segmentación.
 
 De esta manera, puede realizar análisis avanzados de elementos catastrales directamente en QGIS, integrando eficientemente los resultados en sus flujos de trabajo sin necesidad de conocimientos avanzados en programación o ejecución de scripts.
