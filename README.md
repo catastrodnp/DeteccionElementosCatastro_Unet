@@ -87,13 +87,13 @@ En la carpeta onnx de este repositorio se encuentran archivos de modelos pre-ent
       
       • Buscar Deepness e instalarlo.
   
-3. Descargar los modelos ONNX:
+2. Descargar los modelos ONNX:
    
        •	Navegar a la carpeta onnx en este repositorio.
        
-       •	Descargar los archivos de modelo correspondientes a los elementos que desea segmentar (vías, construcciones).
+       •	Descargar los archivos de modelo correspondientes a los elementos que desea segmentar.
 
-5. Cargar los modelos en Deepness:
+3. Cargar los modelos en Deepness:
   
       •	En QGIS, abrir el panel de Deepness.
       
