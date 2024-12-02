@@ -81,11 +81,11 @@ En la carpeta onnx de este repositorio se encuentran archivos de modelos pre-ent
 
 1. Instalar el complemento Deepness:
    
-  •	Abrir QGIS.
-
-  • Ir a Complementos -> Administrar e Instalar Complementos.
-  
-  •Buscar Deepness e instalarlo.
+      •	Abrir QGIS.
+    
+      • Ir a Complementos -> Administrar e Instalar Complementos.
+      
+      •Buscar Deepness e instalarlo.
   
 3. Descargar los modelos ONNX:
    •	Navegar a la carpeta onnx en este repositorio.
