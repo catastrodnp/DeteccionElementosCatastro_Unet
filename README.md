@@ -85,21 +85,26 @@ En la carpeta onnx de este repositorio se encuentran archivos de modelos pre-ent
     
       • Ir a Complementos -> Administrar e Instalar Complementos.
       
-      •Buscar Deepness e instalarlo.
+      • Buscar Deepness e instalarlo.
   
 3. Descargar los modelos ONNX:
-   •	Navegar a la carpeta onnx en este repositorio.
-   •	Descargar los archivos de modelo correspondientes a los elementos que desea segmentar (vías, construcciones).
+   
+       •	Navegar a la carpeta onnx en este repositorio.
+       
+       •	Descargar los archivos de modelo correspondientes a los elementos que desea segmentar (vías, construcciones).
 
-4. Cargar los modelos en Deepness:
+5. Cargar los modelos en Deepness:
   
-  •	En QGIS, abrir el panel de Deepness.
-  •	Importar el modelo ONNX descargado.
+      •	En QGIS, abrir el panel de Deepness.
+      
+      •	Importar el modelo ONNX descargado.
 
 4. Aplicar el modelo a las imágenes:
 
-  •	Seleccionar la imagen satelital o raster sobre la que desea realizar la segmentación.
-  •	Configurar los parámetros necesarios en Deepness.
-  •	Ejecutar el proceso para generar la segmentación.
+      •	Seleccionar la imagen satelital o raster sobre la que desea realizar la segmentación.
+      
+      •	Configurar los parámetros necesarios en Deepness.
+      
+      •	Ejecutar el proceso para generar la segmentación.
 
 De esta manera, puede realizar análisis avanzados de elementos catastrales directamente en QGIS, integrando eficientemente los resultados en sus flujos de trabajo sin necesidad de conocimientos avanzados en programación o ejecución de scripts.
